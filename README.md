@@ -7,7 +7,7 @@
 
 ## Overview
 
-A **Database-First Financial Management System** built in Microsoft Excel for UN agencies, NGOs, and development programmes. This system manages the full lifecycle of funds from diverse sources (Regular Budget, Voluntary Contributions, Bilateral Donors like Sida, EU, ECHO) and ensures compliance with **UN-Nutrition and EU/SECO reporting standards**.
+A **Database-First Financial Management System** built in Microsoft Excel for UN agencies, NGOs, and development programmes. This system manages the full lifecycle of funds from diverse sources (Regular Budget, Voluntary Contributions, Bilateral Donors like Sida, EU, ECHO).
 
 **Key Capability:** Tracks Revenue → Allocations → Expenditures in a relational data model with a dynamic "Reserve Engine" that provides real-time liquidity alerts.
 
