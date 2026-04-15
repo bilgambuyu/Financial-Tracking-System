@@ -95,25 +95,6 @@ Select a single donor (e.g., "Sida" or "Irish Aid") from the Slicer. The entire 
 
 ---
 
-## Documentation Index
-
-- **[User Guide](documentation/01_User_Guide.md)** - How to add new grants and record expenses.
-- **[Technical Specifications](documentation/02_Technical_Specifications.md)** - VBA architecture and formula logic.
-- **[Data Dictionary](documentation/03_Data_Dictionary.md)** - Field definitions for all three core tables.
-- **[Audit & Compliance](documentation/04_Audit_Compliance.md)** - How the system meets UN IPSAS and EU reporting standards.
-- **[Reserve Engine Logic](documentation/05_Reserve_Engine_Logic.md)** - Detailed explanation of the liquidity calculation.
-
----
-
-## Compliance & Controls
-
-This system was designed with the following frameworks in mind:
-- **IPSAS (Accrual Accounting):** Tracks both Commitments (Obligations) and Disbursements (Cash).
-- **UN-Nutrition Reporting:** Thematic pillars align with UN Food Systems Summit outcomes.
-- **EU/SECO Annex VI:** The Donor Report Template maps directly to standard EU narrative financial tables.
-
----
-
 ## Author
 
 **Your Name**
