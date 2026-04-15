@@ -83,18 +83,6 @@ Select a single donor (e.g., "Sida" or "Irish Aid") from the Slicer. The entire 
 
 ---
 
-## Screenshots
-
-| Dashboard View | Reserve Alert | Donor Profile |
-| :---: | :---: | :---: |
-| ![Main](screenshots/dashboard_overview.png) | ![Reserve](screenshots/reserve_engine_alert.png) | ![Donor](screenshots/donor_profile_view.png) |
-
-| Pivot Analysis | Hidden Audit Trail |
-| :---: | :---: |
-| ![Pivot](screenshots/pivot_allocation_pie.png) | ![Audit](screenshots/audit_log_hidden.png) |
-
----
-
 ## Author
 
 **Mbuyu Bilga**
