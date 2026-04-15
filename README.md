@@ -114,8 +114,8 @@ This system was designed with the following frameworks in mind:
 
 ---
 
-## 👤 Author
+## Author
 
 **Your Name**
-- LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/mbuyu-bilga)
-- Portfolio: [yourportfolio.com](https://bilgambuyu.com)
+- LinkedIn: [Mbuyu Bilga](https://www.linkedin.com/in/mbuyu-bilga)
+- Portfolio: [bilgambuyu.com](https://bilgambuyu.com)
