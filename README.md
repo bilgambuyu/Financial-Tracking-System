@@ -32,10 +32,9 @@ A **Database-First Financial Management System** built in Microsoft Excel for UN
 
 This system adheres to the **Database-First** approach, avoiding the pitfalls of "spreadsheet sprawl."
 
-
 ---
 
-## 📈 Dashboard & Reporting Features
+## Dashboard & Reporting Features
 
 ### 1. Executive Dashboard
 The main interface provides at-a-glance portfolio health.
@@ -55,7 +54,7 @@ Select a single donor (e.g., "Sida" or "Irish Aid") from the Slicer. The entire 
 
 ---
 
-## 🛠️ Technology Stack & Formulas
+## Technology Stack & Formulas
 
 | Feature | Implementation |
 | :--- | :--- |
@@ -67,7 +66,7 @@ Select a single donor (e.g., "Sida" or "Irish Aid") from the Slicer. The entire 
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Option 1: Run the Pre-Built System
 1. Download `excel-system/UN_Financial_Tracking_System.xlsm`
@@ -84,7 +83,7 @@ Select a single donor (e.g., "Sida" or "Irish Aid") from the Slicer. The entire 
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 | Dashboard View | Reserve Alert | Donor Profile |
 | :---: | :---: | :---: |
@@ -96,7 +95,7 @@ Select a single donor (e.g., "Sida" or "Irish Aid") from the Slicer. The entire 
 
 ---
 
-## 📖 Documentation Index
+## Documentation Index
 
 - **[User Guide](documentation/01_User_Guide.md)** - How to add new grants and record expenses.
 - **[Technical Specifications](documentation/02_Technical_Specifications.md)** - VBA architecture and formula logic.
@@ -106,7 +105,7 @@ Select a single donor (e.g., "Sida" or "Irish Aid") from the Slicer. The entire 
 
 ---
 
-## 🔒 Compliance & Controls
+## Compliance & Controls
 
 This system was designed with the following frameworks in mind:
 - **IPSAS (Accrual Accounting):** Tracks both Commitments (Obligations) and Disbursements (Cash).
@@ -118,15 +117,5 @@ This system was designed with the following frameworks in mind:
 ## 👤 Author
 
 **Your Name**
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com)
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-*Note: This system is a demonstration of advanced Excel architecture. All data in screenshots is sample data generated for testing.*
+- LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/mbuyu-bilga)
+- Portfolio: [yourportfolio.com](https://bilgambuyu.com)
