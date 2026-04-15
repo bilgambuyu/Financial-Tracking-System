@@ -97,6 +97,6 @@ Select a single donor (e.g., "Sida" or "Irish Aid") from the Slicer. The entire 
 
 ## Author
 
-**Your Name**
+**Mbuyu Bilga**
 - LinkedIn: [Mbuyu Bilga](https://www.linkedin.com/in/mbuyu-bilga)
 - Portfolio: [bilgambuyu.com](https://bilgambuyu.com)
