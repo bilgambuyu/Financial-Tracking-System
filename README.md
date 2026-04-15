@@ -77,7 +77,7 @@ Select a single donor (e.g., "Sida" or "Irish Aid") from the Slicer. The entire 
 ### Option 2: Build from Source
 1. Open a blank Excel workbook.
 2. Press `Alt + F11` to open VBA.
-3. Import `vba-source/source-code.bas`.
+3. Import `source_code.bas`.
 4. Run the macro `Financial Tracking System`.
 5. The entire system will self-populate with realistic sample data in <10 seconds.
 
