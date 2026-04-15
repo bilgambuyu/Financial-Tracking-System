@@ -31,3 +31,102 @@ A **Database-First Financial Management System** built in Microsoft Excel for UN
 ## System Architecture
 
 This system adheres to the **Database-First** approach, avoiding the pitfalls of "spreadsheet sprawl."
+
+
+---
+
+## 📈 Dashboard & Reporting Features
+
+### 1. Executive Dashboard
+The main interface provides at-a-glance portfolio health.
+- **KPI Cards:** Real-time aggregation of Total Revenue, Allocated, Spent, and Reserve.
+- **Reserve Liquidity Alert:** Green (>15%), Yellow (5-15%), Red (<5%).
+- **Allocation Map:** Treemap/Pie chart showing fund distribution across **Agribusiness, Climate, Nutrition, Gender, and Governance** pillars.
+
+### 2. Donor Profile View
+Select a single donor (e.g., "Sida" or "Irish Aid") from the Slicer. The entire dashboard updates to show:
+- Total Lifetime Contribution
+- Active Projects funded by this donor
+- **Remaining Unspent Balance** (Crucial for grant close-out)
+
+### 3. Audit & Compliance
+- **Hidden Audit Log (`_Audit_Log`):** Tracks `User`, `Timestamp`, `Old_Value`, `New_Value`.
+- **Automated EU/SECO Template:** Pulls financial data into a format ready for narrative reporting, including utilization rates (`Expenditure / Budget`).
+
+---
+
+## 🛠️ Technology Stack & Formulas
+
+| Feature | Implementation |
+| :--- | :--- |
+| **Data Validation** | Dependent Named Ranges for Donors, Currencies, and UN Thematic Pillars |
+| **Currency Conversion** | `VLOOKUP([@Currency], FX_Rates, 2, FALSE) * [@Amount_Original]` |
+| **Reserve Engine** | `=SUM(Revenue[Amount_USD]) - (SUM(Allocation[Amount]) + SUM(Expenditure[Disbursed]))` |
+| **Traffic Light Logic** | Conditional Formatting: `=Reserve < Revenue*0.05` (Red Alert) |
+| **VBA Generator** | Single macro to rebuild the entire `.xlsm` file from scratch for demos |
+
+---
+
+## 🚀 Quick Start
+
+### Option 1: Run the Pre-Built System
+1. Download `excel-system/UN_Financial_Tracking_System.xlsm`
+2. **Enable Macros** when prompted (required for Audit Log and Slicer interactivity).
+3. Navigate to the **`EXECUTIVE_DASHBOARD`** sheet.
+4. Use the **Slicers** (Donor, Stream, Pillar) to filter data.
+
+### Option 2: Build from Source (Portfolio Demo)
+1. Open a blank Excel workbook.
+2. Press `Alt + F11` to open VBA.
+3. Import `vba-source/Generate_System.bas`.
+4. Run the macro `Generate_UN_Financial_Tracking_System`.
+5. The entire system will self-populate with realistic sample data in <10 seconds.
+
+---
+
+## 📸 Screenshots
+
+| Dashboard View | Reserve Alert | Donor Profile |
+| :---: | :---: | :---: |
+| ![Main](screenshots/dashboard_overview.png) | ![Reserve](screenshots/reserve_engine_alert.png) | ![Donor](screenshots/donor_profile_view.png) |
+
+| Pivot Analysis | Hidden Audit Trail |
+| :---: | :---: |
+| ![Pivot](screenshots/pivot_allocation_pie.png) | ![Audit](screenshots/audit_log_hidden.png) |
+
+---
+
+## 📖 Documentation Index
+
+- **[User Guide](documentation/01_User_Guide.md)** - How to add new grants and record expenses.
+- **[Technical Specifications](documentation/02_Technical_Specifications.md)** - VBA architecture and formula logic.
+- **[Data Dictionary](documentation/03_Data_Dictionary.md)** - Field definitions for all three core tables.
+- **[Audit & Compliance](documentation/04_Audit_Compliance.md)** - How the system meets UN IPSAS and EU reporting standards.
+- **[Reserve Engine Logic](documentation/05_Reserve_Engine_Logic.md)** - Detailed explanation of the liquidity calculation.
+
+---
+
+## 🔒 Compliance & Controls
+
+This system was designed with the following frameworks in mind:
+- **IPSAS (Accrual Accounting):** Tracks both Commitments (Obligations) and Disbursements (Cash).
+- **UN-Nutrition Reporting:** Thematic pillars align with UN Food Systems Summit outcomes.
+- **EU/SECO Annex VI:** The Donor Report Template maps directly to standard EU narrative financial tables.
+
+---
+
+## 👤 Author
+
+**Your Name**
+- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com)
+- Portfolio: [yourportfolio.com](https://yourportfolio.com)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+*Note: This system is a demonstration of advanced Excel architecture. All data in screenshots is sample data generated for testing.*
