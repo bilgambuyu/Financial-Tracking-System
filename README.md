@@ -69,16 +69,16 @@ Select a single donor (e.g., "Sida" or "Irish Aid") from the Slicer. The entire 
 ## Quick Start
 
 ### Option 1: Run the Pre-Built System
-1. Download `excel-system/UN_Financial_Tracking_System.xlsm`
+1. Download `Financial Tracking System.xlsm`
 2. **Enable Macros** when prompted (required for Audit Log and Slicer interactivity).
 3. Navigate to the **`EXECUTIVE_DASHBOARD`** sheet.
 4. Use the **Slicers** (Donor, Stream, Pillar) to filter data.
 
-### Option 2: Build from Source (Portfolio Demo)
+### Option 2: Build from Source
 1. Open a blank Excel workbook.
 2. Press `Alt + F11` to open VBA.
-3. Import `vba-source/Generate_System.bas`.
-4. Run the macro `Generate_UN_Financial_Tracking_System`.
+3. Import `vba-source/source-code.bas`.
+4. Run the macro `Financial Tracking System`.
 5. The entire system will self-populate with realistic sample data in <10 seconds.
 
 ---
