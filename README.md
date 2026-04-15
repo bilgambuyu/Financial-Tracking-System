@@ -11,7 +11,7 @@ A **Database-First Financial Management System** built in Microsoft Excel for UN
 
 **Key Capability:** Tracks Revenue → Allocations → Expenditures in a relational data model with a dynamic "Reserve Engine" that provides real-time liquidity alerts.
 
-![Dashboard Overview](screenshots/dashboard_overview.png)
+![Dashboard Overview](screenshot-system.png)
 
 ---
 
